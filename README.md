@@ -1,262 +1,79 @@
-# Cifrado César
+# YO TE CREO, Denuncia Seguro(a)
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+## Victimas y testigos de Violencia de Género              
+ 👫👬👭
+
+La definición más aceptada acerca del concepto de Violencia de Género es la propuesta por la Organización de las Naciones Unidas, en el año 1995 la que indica;
+
+>Todo acto de Violencia sexista que tiene como resultado posible o real un daño físico, sexual o psíquico, incluidas las amenazas, la coerción o la privación arbitraria de libertad, ya sea que ocurra en la vida pública o privada.
+
+A modo general, la asimetría de poder de un género por sobre otro ampara las diferencias y valida el desarrollo de conductas que merman tanto psicológica o fisicamente a su compañero(a). 
+
+En opinión de Tomás Honorato, director ejecutivo de Fundación Honra (dedicada apromover la equidad de género y la no violencia en pareja); 
+
+>“La violencia tiene indudablemente un componente de género, donde 1 de cada 3 mujeres en nuestro país sufre violencia, versus 1 caso registrado durante el año pasado en que un hombre fue víctima de violencia por parte de su pareja".
+
+Considerando las diversas maneras de hacer pareja (convivencia, acuerdo de unión civil, pololeo y/o  matrimonio, entre otros) es posible dar cuenta que al momento de encontrarnos en una situación de violencia,  de manera indistinta al género el cual nos reconozcamos, solemos tener dificultades al momento de decidir o no denunciar situaciones de maltrato. 
+
+Las razones para dilatar la presentación de una denuncia por maltratos físicos, psicológicos o sexuales responden principalmente al miedo de la víctima, quienes generalmente no cuenta con las redes de apoyo de cercanos; la dependencia económica, baja autoestima y creencias en torno al maltrato (tales como "me lo merezco", "yo lo(a) provoqué" o "le he hecho enfadar luego es mi culpa", entre muchas otras).
+
+ Por otro lado, por parte de los testigos de violencia hacia  uno de los miembros de la pareja, suele callar por el miedo a las consecuencias y/o represalias. 
+
+ ## ¿Cómo YO TE CREO ayuda a quienes se encuentran en una situación de Violencia? 🙌
+
+Yo te creo, funciona como una aplicación web que les ofrece a las personas, tanto victimas como testigos de violencia,(independientemente del género al cual se identifiquen) una alternativa que les permita denunciar situaciones de violencia de manera  anónima  y amigable. En tal sentido, como organización nos preocupamos de resguardar la información del(a) denunciante, por lo cual no se encuentra como requisito al momento de generar su denuncia la entrega de datos personales y no queda registro desde qué lugar  genera su solicitud. 
+
+Pretendemos mitigar el temor de revelar información clave y de acuerdo a la gravedad del relato, generar conexiones con organizaciones, redes de apoyo-de no contar con la propia- que lo(a) contengan y le permitan una solución a la situación. En esta plataforma, tanto la  víctima cómo el testigo puede escribir todo lo que ha vivenciado con certeza de que nadie que no quiera lo leerá, con la seguridad visual del código y la posesión de la clave de seguridad, necesaria para descifrarlo.
+
+## Proceso de diseño y prototipado🎨
+La interfaz de usuario inicial de **Yo te creo** es bastante sencilla. Tiene una pantalla centrada cuya parte superior contiene los espacios de input de textos y el cifrado, escogiendo el nivel de seguridad y la opción que requiera al escoger en la parte inferior, donde se encuentran los botones. 
+
+ ** Aún no me encuentro satisfecha con el resultado actual **, pero preferí enfocar los esfuerzos en la funcionalidad de la página, para en futuras iteraciones agregar el contenido extra que permita mayor interactividad y resuleva de manera útil las necesidades del(a) usuario(a).
+
+## Qué es el Cifrado César? 🔐
+
+El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 
 - La letra A se cifra como D.
 - La palabra CASA se cifra como FDVD.
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
-
-## Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
-
-Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
 
 
-## Consideraciones generales
 
-- Este proyecto se debe resolver de manera individual.
-- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: El proyecto dura 2 semanas, trabaja con sprints y planificando tus tareas.
+### Prototipos 
 
-## Objetivos de aprendizaje
+La imagen de fondo, fue escogida debido a que si bien contiene colores, estos no se ajustan a un género en particular y dan cuenta de diferentes manos, refiriendo a la diferencia y a que quienes levantan estas manos tienen algo que decir, tal como los usuarios para los cuales está pensada la aplicación web.  
 
-En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
+![primerra idea de proyecto](README/FYTC.png)
 
-#### UX
-- Entender las **necesidades del usuario** y realizar propuestas para esas necesidades. 
+posteriormente, de acuerdo al feedback obtenido por el equipo el diseño tuvo algunos cambios de estructura, de modo que permita una organización más intuitiva para el usuario(a).  
 
-#### HTML y CSS
-- Mostrar elementos de formulario en la pantalla.
+![primerra idea de proyecto](README/BYTC.jpg)
 
-#### DOM
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
+Lo que llevado a Código finalmente tuvo este resultado,cuyas modificaciones surgen a partir de la necesidad de integrar mayor información acerca del funcionamiento de la aplicación a los usuarios, siendo más intuitivo su uso.  
 
-#### JS
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- **Implementar funciones** dada una descripción de su comportamiento.
+Respecto a los colores aplicados,   en primer lugar cabe reconocer que los aplicados a las fuentes así como el de fondo, se caracterizan de acuerdo a principios de color del marketing,  en integrar los colores preferidos tanto de hombres cómo de mujeres. 
 
-### Testing
-- Verificar tu implementación con **pruebas unitarias**.
+Con ello, fueron pensados en la diversidad de posibles usuarios(as), debido a que no apuntan a una edad o un sector en particular, sino que busca integrar a la diversidad de género y facilitar además la compreción del uso de la misma, por eso posicionar cada parte del cuerpo de la aplicación de manera centrada y de modo que cada paso de esta, se muestre de manera progresiva a través de su uso. 
 
-### Git y Github
-- Comandos de git (add | commit | pull | status | push).
-- Manejo de repositorios de GitHub (clone | fork | gh-pages).Manejo de repositorios de GitHub (clone | fork | gh-pages).
+![primerra idea de proyecto](README/YTCF.png)
 
-### Buenas Pràcticas
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
+Por otro lado, el **color azul**  tanto del título y botones, fueron pensados de acuerdo a la sensación que provocan, que de acuerdo al marketing y psicología del color, podemos considerar que el color azul (bastante cercano a los utilizados por facebook), fue pensado en la sensación de confianza, cercanía y seguridad que nos provocan. 
 
-### Consideraciones.
+El efecto hover de los botones cambie a **verde** al momento de pasar el ratón sobre él, debido a que este, connota ideas como amigable, natural y medio ambiente y dado su amplio uso en los semáforos, sugiere la idea de *ir*  o el *movimiento hacia adelante*
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+## Herramientas y lenguaje utilizado 💻🛠
+* HTML 5
+* CSS3
+* giJavascript ESC6 
 
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-### Sotf Skills o Habilidades Blandas
-- **Planificación, organización y manejo del tiempo** : Organizarse de manera general, haciendo una estimación aproximada de los tiempos que se necesitarán para la realización del proyecto. Conocer las ceremonias y artefactos ágiles (sprint planning, dailys, retrospectiva, tablero al menos, etc) a pesar de que no se utilicen con regularidad.
-- **Autoaprendizaje** : Demostrar interés y adquirir nuevos conocimientos autónomamente, estudiando de manera independiente, lo que se traduce, en que cuando es necesario, la estudiante buscará aclarar conceptos y resolver dudas sobre la materia.
-- **Presentaciones** : Utilizar ciertas estrategias para hablar en público (tono y ritmo de voz adecuado, contacto visual con el público, interacción con medios de presentación), que permitan asegurar un mediano entendimiento de la audiencia.
-- **Adaptabilidad** : Afrontar los cambios inesperados o nuevos desafíos con una actitud positiva, aunque no necesariamente se logre accionar o adaptarse de la mejor manera a los diferentes contextos.
-- **Solución de problemas** : Trabajar en la búsqueda y en la elaboración de soluciones alternativas a problemas de mediana complejidad.
-- **Responsabilidad** : Demostrar actitud de compromiso, reflejandolo en la entrega de trabajo a tiempo, llegando a la hora acordada y/o avisando cuando no se pueda asistir.
-- **Dar y recibir feedback** : Escuchar los comentarios y críticas de los demás de manera respetuosa, y/o comunicar a los demás las opiniones de forma constructiva.
-- **Comunicación eficaz** : Comunicar ideas a los demás cuando es necesario, aunque no siempre se fomenten de manera proactiva estas instancias de comunicación.
-
-#### Definición del producto
-
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
-#### Interfaz de usuario (UI)
-
-La interfaz debe permitir al usuario:
-- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
-- Insertar un mensaje (texto) que queremos cifrar.
-- Ver el resultado del mensaje cifrado.
-- Insertar un mensaje (texto) a descifrar.
-- Ver el resultado del mensaje descifrado.
-
-#### Scripts / Archivos
-
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
-  _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
-  contener dos métodos:
-  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
-
-## Funcionalidad extra o “Hacker edition”
-
-Las secciones llamadas “Hacker Edition” son opcionales. Si **alcanzaste los objetivos de aprendizaje** y te queda tiempo, intenta realizar el hacker edition. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
-
-La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
-
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta.
-
-## Vamos a los detalles. Consideraciones Técnicas
-
-La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-En este proyecto NO está permitido usar librerías o frameworks, sólo
-[vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-
-No se debe utilizar la _pseudo-variable_ `this`.
-
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
-test`.
-
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
-
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
-
-El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
-`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
-configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
-
-
-## Pistas sobre cómo comenzar a trabajar en el proyecto
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
-   aunque recomendaría que consideres probar :penguin: GNU/Linux.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
-   darán acceso de lectura en ese repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
-   incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. A codear se ha dicho! :rocket:
-
-## Recursos y temas relacionados
-
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
-
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-Diseño de experiencia de usuario (User Experience Design):
-
-- Ideación
-- Prototipado (sketching)
-- Testeo e Iteración
-
-Desarrollo Front-end:
-
-* [Valores](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/01-basics/01-values-variables-and-types)
-* [Tipos](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/01-basics/01-values-variables-and-types)
-* [Variables](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/01-basics/02-variables)
-* [Control de flujo](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/02-flow-control/00-opening)
-* [Tests unitarios](https://lms.laboratoria.la/cohorts/scl-2019-10-bc-core-scl012/courses/javascript/11-testing/00-opening)
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
-
-Herramientas:
-- [GitHub y GitHub Pages](https://guides.github.com/)
-- [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
-
-## Checklist
-Esta sección está para ayudarte a llevar un control de los objetivos de aprendizaje y las funcionalidades.
-
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
-
-### Funcionalidad extra o “Hacker edition”
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+## Planificación ⏱
+Para gestionar de una manera eficiente el tiempo con el que contamos, utilizamos Trello que conjuntamente con los Daily y el continuo feedback del squad permitieron ajustarnos a los tiempos estimados. 

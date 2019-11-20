@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html>
+  <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Yo te creo</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <!-- Descripción de la aplicacion -->
+    <div id="container"> 
+      <!-- Texto superior -->
+      <h1 class="title"> YO TE CREO</h1>
+      <p class="subtitle">Denuncia Seguro(a)</p>
+      <h3> 
+        ¿Te encuentras en una situación de violencia con tu pareja?
+      </h3>
+      <h3>
+        Realiza tu denuncia, entregando datos relevantes de manera anónima y segura.
+      </h3>
+     <h3>Aceptas el amor que crees merecer</h3>
     </div>
+
+    <!--Zona de ingreso/egreso de texto-->
+    <textarea class="box" id="txt1" cols="30" rows="5" placeholder="Escribe en este recuadro tu denuncia en MAYÚSCULAS"></textarea>
+    <textarea class="box" id="txt2" cols="30" rows="5" placeholder="Tu resultado se mostrará aquí"></textarea>
+
+    <!-- Zona de Offset-->
+    <div id="set">
+      <p class="titleOffset">Nivel de Seguridad para tu mensaje</p>
+      <input id="offSet" min="1" type="number" placeholder=" Ej: 1"/>
+    </div>
+
+    <!-- Zona de Botones-->
+    <div>
+      <button id="btn1" class="button">Cifrar</button>
+      <button id="btn2" class="button">Descifrar</button> 
+      <button id="btnclean" class="button" input type="button" value="Actualizar" onclick="location.reload()">Limpiar</button>
+    </div>
+    
+    <!-- Fin de Pantalla-->     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
-</html>
+  </html>
