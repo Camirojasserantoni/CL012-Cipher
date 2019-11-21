@@ -60,21 +60,21 @@ Lo que llevado a Código finalmente tuvo este resultado,cuyas modificaciones sur
 
 Respecto a los colores aplicados,   en primer lugar cabe reconocer que los aplicados a las fuentes así como el de fondo, se caracterizan de acuerdo a principios de color del marketing,  en integrar los colores preferidos tanto de hombres cómo de mujeres. 
 
-Con ello, fueron pensados en la diversidad de posibles usuarios(as), debido a que no apuntan a una edad o un sector en particular, sino que busca integrar a la diversidad de género y facilitar además la compreción del uso de la misma, por eso posicionar cada parte del cuerpo de la aplicación de manera centrada y de modo que cada paso de esta, se muestre de manera progresiva a través de su uso. 
+Con ello, fueron pensados en la diversidad de posibles usuarios(as), debido a que no apuntan a una edad o un sector en particular, sino que busca integrar a la diversidad de género y facilitar además, la comprensión del uso de la misma, por eso posicionar cada parte del cuerpo de la aplicación de manera centrada y de modo que cada paso de esta, se muestre de manera progresiva a través de su uso. 
 
 ![primerra idea de proyecto](README/YTCF.png)
 
-Por otro lado, el **color azul**  tanto del título y botones, fueron pensados de acuerdo a la sensación que provocan, que de acuerdo al marketing y psicología del color, podemos considerar que el color azul (bastante cercano a los utilizados por facebook), fue pensado en la sensación de confianza, cercanía y seguridad que nos provocan. 
+Por otro lado, la decisión de colocar el **color azul**  tanto al título y cómo a los botones,fue pensada de acuerdo a la sensación que este provoca, que de acuerdo a principios de  marketing y psicología del color, podemos considerar que el color azul, provoca la sensación de confianza y cercanía, necesarias para que el usuario se sienta cómodo con su uso. . 
 
-El efecto hover de los botones cambie a **verde** al momento de pasar el ratón sobre él, debido a que este, connota ideas como amigable, natural y medio ambiente y dado su amplio uso en los semáforos, sugiere la idea de *ir*  o el *movimiento hacia adelante*
+El efecto hover de los botones que cambia a **verde**, fue considerado al estimar que este color connota ideas como "amigable", seguridad y  medio ambiente, que dado a su amplio uso en los semáforos, sugiere la idea de *ir*  o el *movimiento hacia adelante*.
 
-## Herramientas y lenguaje utilizado 💻🛠
+## Herramientas y lenguaje utilizado 🛠
 * HTML 5
 * CSS3
-* Javascript ESC6 
+* JS
 
 ## Iteración con Usuarios(as)
-Esta iteración permitió conocer la experiencia de usuarios reales en la usabilidad de la aplicación, quienes me comentaron aspectos a potenciar en el 
+Esta iteración permitió conocer la experiencia de usuarios reales en la usabilidad de la aplicación, quienes me comentaron la necesidad de realizar algunos cambios que permitan una mayor comprención en el uso de la aplicación. 
 
 [![video de usuario(a)1](README/TU1.jpg)](https://www.loom.com/share/fa3f502923864ddfb3ae1d1b9548c01e)
 
