@@ -7,9 +7,14 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  width: 100%;
+
 }
 
-
+html {
+  display: block;
+  margin: 0;
+}
 
 .tittlep{ 
 color: rgb(59, 83, 122);
@@ -64,7 +69,7 @@ margin: 1%;
 .titleOffset{
   color: rgba(59,89, 152);
   text-align: center;
- 
+  font-weight: 800;
 }
 
 .set{
@@ -117,7 +122,7 @@ border: dotted rgb(59, 92, 134);
 
 .footer .footer-content .footer-section{
   flex: 1;
-  font-size: 9px;
+  font-size: 10px;
   background-color: #FBD786;
   color: rgb(59, 92, 134);
 }
@@ -128,33 +133,64 @@ border: dotted rgb(59, 92, 134);
 
 
 /* CSS media query  */
-@media (max-width: 600px) {
-  body{
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+@media only screen and (max-width: 700px) and (min-width: 320px) {
+  
+
+  body {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
   }
-
-
+  #title{
+    color: rgb(59, 92, 134);
+    font-weight: 700;
+    margin-bottom: 1%;
+  }
+  .tittlep{ 
+    color: rgb(59, 83, 122);
+    float: center;
+    margin: 1%;
+    width: inherit;
+    }
 
   .img1 {
-    width: 77%;
+    width: 50%;
     height: 50%;
   }
 
+  .set{
+    margin-left: 5%;
+  
+  }
+
+  .btns{
+    display: table;
+    margin-top: 2%;
+  
+  }
 
   .footer{
     background-color: #ea9085;
     border: dotted rgb(59, 92, 134);
+    position: relative;
   }
 
-
+  .box{
+    display: contents;
+    margin-left: 10%;
+  
+  }
 
   #container {
-    width: 70%;
+    width: 60%;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 20%;
     font-size: small;
   }
 
