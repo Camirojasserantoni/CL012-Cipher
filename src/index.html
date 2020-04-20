@@ -3,41 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Yo te creo</title>
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <!-- Descripción de la aplicacion -->
-    <div id="container"> 
+
       <!-- Texto superior -->
-      <h1 class="title"> YO TE CREO</h1>
-      <p class="subtitle">Denuncia Seguro(a)</p>
-      <h3> 
+        <div class="tittlep">
+          <h1 id="title">  YO TE CREO </h1>
+          <p class="subtitle">Denuncia Seguro(a)</p>
+          
+        </div>
+        
+        <img  class="img1"  src="./img1.jpg"/>
+    <div id="container">
+      <h4> 
        ¿Te encuentras en una situación de violencia con tu pareja?  o  ¿Conoces a alguien que esté pasando por esta situación?
-      </h3>
-      <h3>
+      </h4>
+      <h4>
         Realiza tu denuncia entregando datos relevantes de manera anónima y segura.
-      </h3>
-     <h3>Acepta el amor que crees merecer.</h3>
+      </h4>
+     <h4>Acepta el amor que crees merecer.</h4>
     </div>
 
     <!--Zona de ingreso/egreso de texto-->
-    <textarea class="box" id="txt1" cols="30" rows="5" placeholder="Escribe en este recuadro tu denuncia en MAYÚSCULAS"></textarea>
-    <textarea class="box" id="txt2" cols="30" rows="5" placeholder="Tu resultado se mostrará aquí"></textarea>
-
+    <div class="box">
+      <textarea class="txt" id="txt1" cols="30" rows="5" placeholder="Escribe en este recuadro tu denuncia en MAYÚSCULAS"></textarea>
+      <textarea class="txt" id="txt2" cols="30" rows="5" placeholder="Tu resultado se mostrará aquí"></textarea>
+    </div>
     <!-- Zona de Offset-->
-    <div id="set">
+    <div class="set">
       <p class="titleOffset">Nivel de Seguridad para tu Denuncia</p>
       <input id="offSet" min="1" type="number" placeholder=" Ej: 1"/>
     </div>
 
     <!-- Zona de Botones-->
-    <div>
-      <button id="btn1" class="button">Cifrar</button>
-      <button id="btn2" class="button">Descifrar</button> 
-      <button id="btnclean" class="button" input type="button" value="Actualizar" onclick="location.reload()">Limpiar</button>
+    <div class="btns">
+        <button id="btn1" class="button">Cifrar</button>
+        <button id="btn2" class="button">Descifrar</button> 
+        <button id="btnclean" class="button" input type="button" value="Actualizar" onclick="location.reload()">Limpiar</button>
     </div>
     
+     <!--Footer Zone -->
+    <div class="footer">     
+      <div class="footer-content">
+    
+        <div class="footer-section Links">
+          <h2> Conoce mas de...</h2>
+          <br>
+         
+              <a target="_blank" href="https://psicologiaymente.com/forense/tipos-violencia-de-genero">
+              <p> Qué es la violencia?</p>
+
+              <a target="_blank" href="https://pdichile.cl/informaci%C3%B3n/denuncia-seguro"> <p>Policia de Investigaciones</p></a>
+              </a>
+
+              <a target="_blank" href="http://www.denunciaseguro.cl/">
+              <p>Denuncia Seguro</p>
+              </a>
+              
+            
+            <a target="_blank" href="http://www.apoyovictimas.cl/">
+              <p>Si eres victima...</p>
+            </a>
+            <div class="contact">
+              <p>123-456-789 </p>
+              <p> info@yotecreo.com </p>
+          </div>
+        </div>  
+    </div>
+    </div>
+  
     <!-- Fin de Pantalla-->     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
