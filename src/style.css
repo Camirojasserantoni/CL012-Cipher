@@ -151,9 +151,10 @@ border: dotted rgb(59, 92, 134);
   }
   .tittlep{ 
     color: rgb(59, 83, 122);
-    width: unset;
-    display: contents;
+    width: auto;
+    display: block;
     flex-direction: column;
+   
     }
 
   .img1 {
@@ -165,11 +166,25 @@ border: dotted rgb(59, 92, 134);
     margin-left: 5%;
   
   }
+  #offSet {
+    height: 2rem;
+    width: 4rem;
+    text-align: center;
+    display: inline-flex;
+    font-weight: bold;
+   
+  }
+
+  .titleOffset{
+    color: rgba(59,89, 152);
+    text-align: center;
+    font-weight: 800;
+  }
 
   .btns{
-    display: inline-flex;
     margin-top: 2%;
     margin-bottom: 4%;
+    
   
   }
 
@@ -181,7 +196,7 @@ border: dotted rgb(59, 92, 134);
 
   .box{
     display: inline-block;
-    ;
+    
   
   }
 
